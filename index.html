@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMPL_Paytm_Calculator</title>
+</head>
+<body>
+    <div class="input">
+        <h2>Input:</h2>
+        <label for="vendorprice">Vendor Price: </label>
+        <input type="textbox"  id="vendorprice" />
+        <br>
+        <label for="percentage">Percentage: </label>
+        <input type="textbox"  id="percentage" />
+        <br>
+        <label for="shippingamount">Shipping Amount: </label>
+        <input type="textbox"  id="shippingamount" />
+        <br>
+        <label for="">Selling Price: </label>
+        <input type="textbox"  id="sellingprice" />
+        <br>
+    </div>
+    <div class="button">
+        <br>
+        <button id="btnwithGST">Calculate inclusive GST</button>
+        <br> <br>
+        <button id="btnwithoutGST">Calculate exclusive GST</button>
+    </div>
+    <div class="output">
+        <h2>Output:</h2>
+        <label for="vendorratewithgst">Vendor Rate with GST:</label>
+        <label for="withgst" id="withgst"></label>
+        <br>
+        <label for="paytmfee">Paytm Fee's: </label>
+        <label for="fees" id="paytmfees"></label>
+        <br>
+        <label for="ourprofit">Our Profit: </label>
+        <label for="profit" id="ourprofit"></label>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
